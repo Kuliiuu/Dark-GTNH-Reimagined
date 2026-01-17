@@ -1,9 +1,6 @@
 Dark GTNH Reimagined by Kuliiuu (Marneyy_) is licensed under the  
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
 
-This project and all modifications made by Marneyy_ are distributed under the same license:  
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
-
 See below for the full license text.
 
 # Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
