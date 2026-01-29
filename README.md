@@ -6,6 +6,8 @@
 
 💬 For feedback, bug reports, or texture requests, feel free to contact me on Discord: **@marneyy_**
 
+Now support 100% of GUIs, be sure to report bugs.
+
 ---
 
 ## About
@@ -22,7 +24,7 @@ Color scheme is taken from rembutquaglet (great Hypixel skyblock content), his y
 
 This UI resource pack is designed to be used **together with Modernity-GTNH**.
 
-🔗 https://github.com/ABKQPO/Modernity-GTNH
+https://github.com/ABKQPO/Modernity-GTNH
 
 ### 📦 Recommended Load Order in Minecraft:
 1. Dark GTNH Reimagined  
