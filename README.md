@@ -6,7 +6,7 @@
 
 💬 For feedback, bug reports, or texture requests, feel free to contact me on Discord: **@marneyy_**
 
-Now support 100% of GUIs, be sure to report bugs.
+Now supports 100% of GUIs, be sure to report bugs.
 
 ---
 
