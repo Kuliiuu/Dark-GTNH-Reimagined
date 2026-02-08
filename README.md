@@ -1,11 +1,3 @@
-> ⚠️ **Notice**
->
-> There exists another GitHub repository publishing this project while presenting it as original work by a different author:
-> https://github.com/asadnawaz711/Dark-GTNH-Reimagined
->
-> **Dark GTNH Reimagined** was originally created and is maintained by **Kuliiuu (Marneyy_)**.
-> Any redistribution of this project must comply with the CC BY-NC-SA 4.0 license, including proper attribution to the original author.
-
 # Dark GTNH Reimagined
 
 **GT New Horizons – Dark UI Theme for 2.8.4**
