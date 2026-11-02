@@ -4,8 +4,8 @@
 </div>
   
 <div align="center">
- <p><strong>A dark themed GUI resource pack made for GT:NH<strong></p>
- <p>Current supported version: 2.8.4</p>
+ <p><strong>A dark themed GUI resource pack made for <a href="https://www.gtnewhorizons.com" target="_blank">GT:NH</a><strong></p>
+ <p>Current supported version: 2.9.0</p>
  <p><a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/releases">To the download page!</a></p>
 </div>
 
@@ -26,7 +26,7 @@
 <p>Curseforge: <a href="https://www.curseforge.com/minecraft/texture-packs/dark-gtnh-reimagined">Download on Curseforge</a><br>
 Modrinth: <a href="https://modrinth.com/resourcepack/dark-gtnh-reimagined">Download on Modrinth</a></p>
 <p>Some assets were taken from: <a href="https://github.com/Flanisch/Scuffed-GTNH-Dark">Flanisch/Scuffed-GTNH-Dark</a>.<br>
-I was inspired by: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a>.<br>
+Inspiration: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a>.<br>
 Color theme credit: <a href="https://www.youtube.com/@rembutquaglet">Youtube/@rembutquaglet</a>.</p>
 <p>I strongly recommend using my pack <strong>together with Modernity</strong> (<a href="https://github.com/ABKQPO/Modernity-GTNH">ABKQPO/Modernity-GTNH</a>).</p></div>
 
