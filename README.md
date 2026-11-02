@@ -6,6 +6,7 @@
 <div align="center">
  <p><strong>A dark themed GUI resource pack made for GT:NH<strong></p>
  <p>Current supported version: 2.8.4</p>
+ <p>If you are looking for a version with 2.9.0 support, you can visit the 2.9.0-dev branch <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/tree/2.9.0-dev">here</a>. Although consider that this dev version is incomplete for now.</p>
  <p><a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/releases">To the download page!</a></p>
 </div>
 
