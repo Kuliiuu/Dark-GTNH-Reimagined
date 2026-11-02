@@ -1,9 +1,3 @@
-item.part_fluid_pattern_terminal.name=§fME Fluid Pattern Terminal
-item.part_fluid_pattern_terminal_ex.name=§fME Fluid Processing Pattern Terminal
-ae2fc.gui.fluid_packet_decoder=§fME Fluid Packet Decoder
-
-ae2fc.gui.part_fluid_pattern_terminal=§fFluid Pattern Terminal
-ae2fc.gui.part_fluid_pattern_terminal_ex=§fFluid Processing Pattern Terminal
 ae2fc.gui.part_level_terminal=§fLevel Terminal
 ae2fc.gui.fluid_pattern_encoder=§fFluid Pattern Encoder
 ae2fc.gui.fluid_packet_decoder=§fME Fluid Packet Decoder
@@ -19,11 +13,6 @@ ae2fc.gui.fluid_interface.4=§fW
 ae2fc.gui.fluid_interface.5=§fE
 ae2fc.gui.oc_pattern_editor=§fOC Pattern Editor
 ae2fc.gui.button.set=§fSet
-ae2fc.gui.part_fluid_level_emitter=§fME Fluid Level Emitter
-ae2fc.gui.part_fluid_import=§fME Fluid Import Bus
-ae2fc.gui.part_fluid_export=§fME Fluid Export Bus
-ae2fc.gui.part_fluid_terminal=§fME Fluid Terminal
-ae2fc.gui.part_fluid_storage_bus=§fME Fluid Storage Bus
 ae2fc.gui.fluid_auto_filler=§fME Fluid Auto Filler
 
 ae2fc.gui.magnet=§fMagnet Filter
@@ -31,4 +20,6 @@ ae2fc.gui.magnet.nbt=§fIgnore NBT Data
 ae2fc.gui.magnet.meta=§fIgnore Meta Data
 ae2fc.gui.magnet.ore=§fUse Ore Dictionary
 ae2fc.gui.magnet.whitelist=§fWhitelisting
-ae2fc.gui.magnet.blacklist=§fBlackListing
+ae2fc.gui.magnet.blacklist=§fBlacklisting
+
+color.resource.ae2fc.guiTextColorGray=FFFFFF
