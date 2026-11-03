@@ -4,9 +4,9 @@
 </div>
   
 <div align="center">
- <p><strong>A dark themed GUI resource pack made for <a href="https://www.gtnewhorizons.com" target="_blank">GT:NH</a><strong></p>
- <p>Current supported version: 2.9.0</p>
- <p>Angelica is now needed for text recoloring in GUIs</p>
+ <p><strong>A dark themed GUI resource pack made for <a href="https://www.gtnewhorizons.com" target="_blank">GT:NH</a></strong></p>
+ <p>Current supported version: <strong>2.9.0</strong></p>
+ <p><strong>Angelica is now needed for text recoloring in GUIs</strong></p>
  <p>NOTE: This is a development branch. Although it is completely usable, expect this version being incomplete for now.</p>
  <p>If you are still on version 2.8.4 and prior, you might prefer to download the latest stable release <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/releases">here</a>.</p>
  <p>If you wish to download this version, you can do so downloading the code, or by downloading the latest commit <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/archive/refs/heads/2.9.0-dev.zip">here</a>.</p>
