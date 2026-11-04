@@ -1,18 +1,14 @@
-#Additions
-gui.appliedenergistics2.CPUs=§fCPU
-gui.appliedenergistics2.NoCraftingJobs=§fNo Crafting Job Active
-gui.appliedenergistics2.NoCraftingCPUs=§fNo Crafting CPUs are Available
-gui.appliedenergistics2.CraftingCPU=§fCrafting CPU
-gui.appliedenergistics2.StartWithFollow=§fStart With Follow
-gui.appliedenergistics2.ToFollow=§fFollow
-gui.appliedenergistics2.ToUnfollow=§fUnfollow
-gui.appliedenergistics2.Start=§fStart
-gui.appliedenergistics2.Next=§fNext
-gui.appliedenergistics2.Suspend=§fSuspend
-gui.appliedenergistics2.Resume=§fResume
-gui.appliedenergistics2.Cancel=§fCancel
-gui.appliedenergistics2.Terminal=§fTerminal
-gui.appliedenergistics2.Set=§fSet
-gui.appliedenergistics2.IncreaseAmount=§f+%s
-gui.appliedenergistics2.DecreaseAmount=§f-%s
-gui.appliedenergistics2.AddToBookmark=§fBookmark
+#lang-appliedenergistics2
+#colorUtils
+
+# ColorUtils
+## RBG
+color.resource.ae2.guiTextColorGray=FFFFFF
+color.resource.ae2.guiTextColorBlack=FFFFFF
+color.resource.ae2.searchboxText=FFFFFF
+color.resource.ae2.craftingStatusCPUName=FFFFFF
+color.resource.ae2.craftingStatusCPUStorage=FFFFFF
+color.resource.ae2.craftingStatusCPUAmount=FFFFFF
+color.resource.ae2.craftAmountToCraft=FFFFFF
+color.resource.ae2.neiGrindstoneRecipeChance=FFFFFF
+color.resource.ae2.neiGrindstoneNoSecondOutput=FFFFFF
