@@ -12,7 +12,7 @@
  <p>If you wish to download this version, you can do so downloading the code, or by downloading the latest commit <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/archive/refs/heads/2.9.0-dev.zip">here</a>.</p>
 </div>
      
-<hr><h2 align="center">Preview</h2>
+<h2 align="center">Preview</h2>
 
 <p align="center">
   <img src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/preview/img1.png?raw=true" alt="Preview1" width="240"/>
@@ -24,7 +24,7 @@
   <img src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/preview/img0.png?raw=true" alt="Preview4" width="240"/> 
 </p>
 
-<hr><div align="center"><h2>About</h2>
+<div align="center"><h2>About</h2>
 <p><strong>Dark GTNH Reimagined</strong> was made to apply the same theme for all GUIs while having a nice modern feel.</p>
 <p>Curseforge: <a href="https://www.curseforge.com/minecraft/texture-packs/dark-gtnh-reimagined">Download on Curseforge</a><br>
 Modrinth: <a href="https://modrinth.com/resourcepack/dark-gtnh-reimagined">Download on Modrinth</a></p>
@@ -33,7 +33,7 @@ Inspiration: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a>.
 Color theme credit: <a href="https://www.youtube.com/@rembutquaglet">Youtube/@rembutquaglet</a>.</p>
 <p>I strongly recommend using my pack <strong>together with Modernity</strong> (<a href="https://github.com/ABKQPO/Modernity-GTNH">ABKQPO/Modernity-GTNH</a>).</p></div>
 
-<hr><div align="center"><h2>License</h2>
+<div align="center"><h2>License</h2>
 <p>This project is licensed under the<br>
 <strong>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</strong></p>
 
