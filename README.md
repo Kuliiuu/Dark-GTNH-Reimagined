@@ -28,9 +28,9 @@
 <p><strong>Dark GTNH Reimagined</strong> was made to apply the same theme for all GUIs while having a nice modern feel.</p>
 <p>Curseforge: <a href="https://www.curseforge.com/minecraft/texture-packs/dark-gtnh-reimagined">Download on Curseforge</a><br>
 Modrinth: <a href="https://modrinth.com/resourcepack/dark-gtnh-reimagined">Download on Modrinth</a></p>
-Inspiration: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a>.<br>
-Color theme credit: <a href="https://www.youtube.com/@rembutquaglet">Youtube/@rembutquaglet</a>.</p>
-<p>I strongly recommend using my pack <strong>together with Modernity</strong> (<a href="https://github.com/ABKQPO/Modernity-GTNH">ABKQPO/Modernity-GTNH</a>).</p></div>
+Inspiration: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a><br>
+Color theme credit: <a href="https://www.youtube.com/@rembutquaglet">Youtube/@rembutquaglet</a></p>
+<p>I strongly recommend using my pack <strong>together with Modernity</strong> (<a href="https://github.com/ABKQPO/Modernity-GTNH">ABKQPO/Modernity-GTNH</a>)</p></div>
 
 <div align="center"><h2>License</h2>
 <p>This project is licensed under the<br>
