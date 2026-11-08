@@ -1,2 +1,7 @@
-bq_standard.gui.neiQuestNameColor=AAAAAA
-bq_standard.gui.neiQuestNameHoveredColor=AEAEAE
+#lang-bq_standard
+#colorUtils
+
+# ColorUtils
+## RBG
+color.resource.bq_standard.neiQuestNameColor=FFFFFF
+color.resource.bq_standard.neiQuestNameHoveredColor=FFFFA0
