@@ -1,0 +1,44 @@
+{
+    "$panel": {
+        "margin": 2,
+        "padding": 6,
+
+        "fontColors": {
+            "black": "0xFF2A2B32"
+        },
+        "fontShadow": true,
+        "sectionSpacing": 4,
+
+        "decorators": [{
+            "type": "background",
+            "color": "0xDC16171C",
+            "corner": true
+        },{
+            "type": "border",
+            "color": ["0xFFC47B05", "0xFF915C01"],
+            "margin": 1
+        }]
+    },
+    "styles": [{
+        "$ref": "$panel"
+    }, {
+        "context": "item",
+        "$ref": "$panel",
+
+        "sections": {
+            "amount": {
+                "place": "header",
+                "modes": ["always"],
+                "fontShadow": true,
+                "fontColors": {
+                    "gray": "0x555555"
+                },
+                "marginBottom": -2
+            },
+            "keyboard-modifier": {
+                "place": "footer",
+                "modes": ["always"]
+            }
+        }
+    }]
+}
