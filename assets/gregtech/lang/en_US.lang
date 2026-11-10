@@ -1,423 +1,375 @@
-GT5U.infodata.purification_plant.status_button=§fStatus
-GT5U.infodata.purification_plant.status_title=§fPurification Unit Status
-GT5U.infodata.purification_plant.linked_units=§fLinked Purification Units:
-GT5U.infodata.purification_plant.linked_units.status.online=§fOnline
-GT5U.infodata.purification_plant.linked_units.status.disabled=§4Disabled
-GT5U.infodata.purification_plant.linked_units.status.incomplete=§4Incomplete Structure
+#lang-gregtech
+#sub-text
+#error
+#colorUtils
 
-GT5U.gui.text.purification_plant.hit_to_start=§fHit with Soft Mallet to start.
+# ColorUtils
+## RBG
+color.resource.gregtech.networkAnalyzerNodeInput=C46632
+color.resource.gregtech.networkAnalyzerNodeOutput=2A63C1
+color.resource.gregtech.networkAnalyzerNodeFork=7AC25F
+color.resource.gregtech.networkAnalyzerSeverityNone=FFFFFF
+color.resource.gregtech.networkAnalyzerSeveritySuccess=7AC25F
+color.resource.gregtech.networkAnalyzerSeverityWarning=FFD800
+color.resource.gregtech.networkAnalyzerSeverityAlert=B13E53
 
-GT5U.gui.text.drone_title=§fDrone Control Centre
-GT5U.gui.text.drone_custom_name=§fCustom Machine Name
+## ARBG
+color.resource.gregtech.spaceElevatorSelectorWhitelist=FF7AC25F
+color.resource.gregtech.spaceElevatorSelectorBlacklist=FFB13E53
 
-GT5U.gui.text.none=§f
+# Strings
+## AssemblyLine
+GT5U.gui.text.structure_error.al_too_many_data_access_hatch=&#C62140Only one Data Access Hatch is allowed
+GT5U.gui.text.structure_error.al_missing_output_bus=&#C62140Missing Output Bus on the last slice
 
-GT5U.machines.solarindicator1=§fIs Daytime
-GT5U.machines.solarindicator2=§fNot Raining
-GT5U.machines.solarindicator3=§fCan See Sky
+## BaseTileEntity
+GT5U.gui.button.forbidden=&#C62140Cannot change mode for this machine
 
-GT5U.gui.select.current=§fCurrent:
 
-GT5U.gui.text.rangedvalue=§fRange: %s-%s
-#GT5U.gui.text.lockedvalue=§fLocked: %s
-GT5U.gui.text.success=§fProcessing recipe
-GT5U.gui.text.progress=§fProgress:
-GT5U.gui.text.generating=§fGenerating power
-GT5U.gui.text.no_recipe=§fNo valid recipe found
-GT5U.gui.text.item_output_full=§fNot enough item output space
-GT5U.gui.text.fluid_output_full=§fNot enough fluid output space
+## BioVat
+GT5U.gui.text.structure_error.too_many_radiation_hatch=&#C62140Too many radiation hatch
 
-GT5U.gui.text.crash=§4Machine turned off due to crash. Refer to the log for more info.
-GT5U.gui.text.no_fuel=§4No valid fuel found
-GT5U.gui.text.no_turbine=§4No valid turbine found
-GT5U.gui.text.no_lubricant=§4No lubricant found
-GT5U.gui.text.no_coolant=§4No coolant found
-GT5U.gui.text.cycle_idle=§4Waiting for cycle to start
-GT5U.gui.text.fuel_quality_too_high=§4§4Fuel quality too high to run without boost
-GT5U.gui.text.data_stick.saved=§fSaved Config to Data Stick
-GT5U.gui.text.data_stick.loaded=§fLoaded Config from Data Stick
-GT5U.gui.text.data_stick.invalid=§4Invalid Data Stick configuration
-GT5U.gui.text.no_data_sticks=§fNo Data Sticks found
-GT5U.gui.text.bio_upgrade_missing=§4Recipe needs Bio Upgrade to start
-GT5U.gui.text.nanites_missing=§4Missing nanites
-GT5U.gui.text.electromagnet_missing=§4Needs an Electromagnet to run
-GT5U.gui.text.electromagnet_insufficient=§4Electromagnet too weak to handle multi-amp energy hatches
-GT5U.gui.text.laser_insufficient=§4Laser source is too weak to run this recipe
-GT5U.gui.text.cleanroom_running=§fCleanroom running
-GT5U.gui.text.no_machine=§4No valid processing machine
-GT5U.gui.text.machine_mismatch=§4Machine doesn't match to locked recipe
-GT5U.gui.text.high_gravity=§4Recipe needs low gravity
-GT5U.gui.text.no_mining_pipe=§4Missing Mining Pipe
-GT5U.gui.text.drilling=§fDrilling
-GT5U.gui.text.circulating_fluid=§fCirculating Fluid
-GT5U.gui.text.deploying_pipe=§fDeploying mining pipe
-GT5U.gui.text.extracting_pipe=§fExtracting pipe
-GT5U.gui.text.retracting_pipe=§fRetracting pipe
-GT5U.gui.text.no_drilling_fluid=§4No drilling fluid
-GT5U.gui.text.drill_exhausted=§4§dDrill has exhausted all resources
-GT5U.gui.text.drill_generic_finished=§fMining pipes have been retracted
-GT5U.gui.text.drill_retract_pipes_finished=§fOperation aborted
-GT5U.gui.text.backfiller_no_concrete=§4No liquid concrete
-GT5U.gui.text.no_black_hole=§4Requires an active black hole
-GT5U.gui.text.backfiller_finished=§fWork complete
-GT5U.gui.text.backfiller_working=§fPouring concrete
-GT5U.gui.text.backfiller_current_area=§fFilling at y-level: %s
-GT5U.gui.text.overheated=§4HIP Unit overheated!
-GT5U.gui.text.pump_fluid_type=§fFluid: %s
-GT5U.gui.text.pump_rate.1=§fPumping rate: %s§r
-GT5U.gui.text.pump_rate.2=§f L/t
-GT5U.gui.text.pump_recovery.1=§fRecovering §b%s§r
-GT5U.gui.text.pump_recovery.2=§f L per operation
-GT5U.gui.text.not_enough_energy=§4Not enough energy
-GT5U.gui.text.power_overflow=§4Power overflowed
-GT5U.gui.text.duration_overflow=§4Processing time overflowed
-GT5U.gui.text.insufficient_power=§4Recipe needs more power to start. Required: %s EU/t (%s§4)
-GT5U.gui.text.insufficient_voltage=§4Recipe needs a higher voltage to start. Required: %s EU/t (%s§4)
-GT5U.gui.text.insufficient_heat=§4Recipe needs more heat to start. Required: %s K (%s§4)
-GT5U.gui.text.insufficient_machine_tier=§4Recipe needs higher structure tier. Required: %s
-GT5U.gui.text.insufficient_startup_power=§4Recipe needs higher startup power. Required: %s
-GT5U.gui.text.internal_error=§pRecipe was found, but had internal error
-GT5U.gui.text.drill_ores_left_chunk=§fOres left in current chunk: %s
-GT5U.gui.text.drill_ores_left_layer=§fOres left at y-level %s: %s
-GT5U.gui.text.drill_chunks_left=§fDrilling chunk: %s / %s
-GT5U.gui.text.drill_current_vein=§fCurrent Vein: %s
-GT5U.gui.text.drill_offline_reason=§4Drill Offline: %s
-GT5U.gui.text.drill_offline_generic=§4Drill Offline
-GT5U.gui.text.drill_extracting_ores=§fExtracting Ores
-GT5U.gui.text.drill_extracting_ores_failed=§4Extraction Failed
-GT5U.gui.text.stocking_bus_fail_extraction=§4Failed to extract expected amount of items from stocking bus. This can be caused by attaching multiple storage buses to the same inventory.
-GT5U.gui.text.stocking_hatch_fail_extraction=§4Failed to extract expected amount of fluids from stocking hatch. This can be caused by attaching multiple storage fluid buses to the same tank.
-GT5U.gui.text.drone_noDrone=§4Can't find any drone in Input Buses!
-GT5U.gui.text.drone_operating=§fDrone operating normally!
-GT5U.gui.text.drone_title=§fDrone Control Centre
-GT5U.gui.text.drone_custom_name=§fCustom Machine Name
-GT5U.gui.text.drone_search=§fSearch machine name
-GT5U.gui.text.shutdown_duration=§4Shut down §e%s h §e%s min §e%s s ago.
-GT5U.gui.text.out_of_fluid=§4No following fluids supplied: §b%s x %s L
-GT5U.gui.text.out_of_item=§4No following items supplied: §b%s x %s
-GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s x %s
-GT5U.gui.text.power_loss=§4Shut down due to power loss.
-GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
-GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
-GT5U.gui.text.no_repair=§4Shut down due to machine damage.
-GT5U.gui.text.no_machine_part=§4No correct machine part in controller slot.
-GT5U.gui.text.insufficient=§4Shut down due to insufficient dynamo size
-GT5U.gui.text.missing_item=§4Missing required item: §b%s
-GT5U.gui.text.ph_sensor=§fpH threshold
-GT5U.gui.text.critical_ph_value=§4pH exceeded critical value.
-GT5U.gui.text.heat_sensor=§fHeat threshold
-GT5U.gui.text.no_maintenance=§4Missing Maintenance Hatch
-GT5U.gui.text.no_muffler=§4Missing Muffler Hatch
-GT5U.gui.text.pulse_mode=§fPulse Mode
-GT5U.gui.text.no_wafer=§4§4No wafer was found
-GT5U.gui.text.low_wafer_tier=§47Found wafer is too low tier for the recipe
-GT5U.gui.text.not_enough_wafer=§4Found wafer but recipe requires more than given
-GT5U.gui.text.static_mode=§fStatic Mode
-GT5U.gui.text.unneeded_muffler=§4Does not accept Muffler Hatches
-GT5U.gui.missing_casings=§4Too few casings: need %s but have %s
-GT5U.gui.missing_casings_specific=§4Too few %s: need %s but have %s
-GT5U.gui.missing_hatch=§4Missing %s
-GT5U.gui.too_many_hatches=§4§4Too many %ses (max %s)
-GT5U.gui.text.power_panel=§fPower Control Panel
-GT5U.gui.text.too_uncertain=§pToo Uncertain.
-GT5U.gui.text.invalid_parameters=§4Invalid Parameters.
-GT5U.gui.text.enabled=§fEnabled§f
-GT5U.gui.text.disabled=§fDisabled§f
-GT5U.gui.text.lma_craftingfx=§fShow Crafting Effects
-GT5U.gui.text.repair_tip=§fClick with a tool to repair.
-GT5U.gui.text.repair_info=§fRight-click hatch with Duct Tape\n§for a filled Tool Box to repair all issues.
-GT5U.gui.text.apiary_missing_flowers=§fMissing flowers: %s
-GT5U.gui.text.microwave_energy_transmitter.x=§fTarget X
-GT5U.gui.text.microwave_energy_transmitter.y=§fTarget Y
-GT5U.gui.text.microwave_energy_transmitter.z=§fTarget Z
-GT5U.gui.text.microwave_energy_transmitter.d=§fTarget Dim
-GT5U.gui.text.contents=§fContents:§r
-GT5U.gui.text.content-entry=§f%s:§9 %s§r
-GT5U.gui.text.decay-rate=§fDecay Rate:§9 %s%s
-GT5U.gui.text.nothing=§fNothing§r
-GT5U.gui.text.half-life=§fHalf-life: %s %s
-GT5U.gui.text.isotope-prod-per-s=§fProd/Stack/Second: %.2e
-GT5U.gui.text.decay-type=§fDecay Type: %s
-GT5U.gui.text.unknown=§fUnknown
-GT5U.gui.text.alpha=§fAlpha Decay
-GT5U.gui.text.spontaneous-fission=§fSpontaneous Fission
-GT5U.gui.text.cluster=§fCluster Decay
-GT5U.gui.text.alpha-transfer=§fAlpha Transfer
-GT5U.gui.text.beta-minus=§fBeta Minus Decay
-GT5U.gui.text.beta-plus=§fBeta Plus Decay
+## CircuitAssemblyLine
+GT5U.multiblock.runningMode=Running Mode:&#EFC62F
 
-GT5U.gui.text.cannot_change_when_running=§4Can't change configuration when running!
+## Cleanroom
+GT5U.gui.text.structure_error.cleanroom_plascrete=&#C62140Not enough plascrete blocks
+GT5U.gui.text.structure_error.cleanroom_size=&#C62140Unable to identify ceiling size
 
-GT5U.gui.text.fluid_limiter.threshold=§fPercent threshold
+## CheckRecipeResultRegistry
+GT5U.gui.text.recipe_result.crash=&#C62140Machine turned off due to crash. Refer to the log for more info.
+GT5U.gui.text.recipe_result.cycle_idle=&#EFC62FWaiting for cycle to start
+GT5U.gui.text.recipe_result.duration_overflow=&#C62140Processing time overflowed
+GT5U.gui.text.recipe_result.fluid_output_full=&#C62140Not enough fluid output space
+GT5U.gui.text.gtnhlanth.toolowenergy=&#C62140Below Required Energy!
+GT5U.gui.text.gtnhlanth.wrongparticle=&#C62140Incorrect Particle!
+GT5U.gui.text.recipe_result.internal_error=&#C62140Recipe was found, but had internal error
+GT5U.gui.text.recipe_result.item_output_full=&#C62140Not enough item output space
+GT5U.gui.text.recipe_result.nac.missing_water=&#C62140Insufficient Water Supplied
+GT5U.gui.text.recipe_result.nac.no_valid_hatch_color=&#C62140No VCO with color %s found
+GT5U.gui.text.recipe_result.no_bec_assembler=&#C62140Condensate Observation Array Offline
+GT5U.gui.text.shutdown_reason.nac_output_hatch_missing=&#C62140Colored output hatch disappeared mid-recipe.
+GT5U.gui.text.shutdown_reason.bec_clogged=&#C62140More Than 3 Condensates Present
+GT5U.gui.text.recipe_result.no_black_hole=&#C62140Requires an active black hole
+GT5U.gui.text.recipe_result.no_data_sticks=&#C62140No Data Sticks found
+GT5U.gui.text.recipe_result.no_drilling_fluid=&#C62140No drilling fluid
+GT5U.gui.text.recipe_result.no_fuel=&#C62140No valid fuel found
+GT5U.gui.text.recipe_result.no_immersion_fluid=&#C62140No immersion fluid available
+GT5U.gui.text.recipe_result.no_mining_pipe=&#C62140Missing Mining Pipe
+GT5U.gui.text.no_see_sky=&#C62140Cannot see the sky
+GT5U.gui.text.recipe_result.shutdown_reasonno_turbine=&#C62140No valid turbine found
+GT5U.gui.text.recipe_result.power_overflow=&#C62140Power Overflowed: Supplied Energy is too high for this machine.
 
-GT5U.gui.text.volumetric_flask.capacity=§fCapacity
-GT5U.gui.text.volumetric_flask.confirm=§fConfirm
+## ConcreteBackfillerBase
+GT5U.gui.text.recipe_result.backfiller_no_concrete=&#C62140No liquid concrete
 
-GT5U.gui.text.fusion_computer.hit_to_start=§fHit with Soft Mallet to (re-)start the Machine if it doesn't start.
-GT5U.gui.text.fusion_computer.running_perfectly=§fRunning perfectly.
+## DrillerBase
+GT5U.gui.text.recipe_result.not_enough_energy=&#C62140Not enough energy
 
-GT5U.gui.text.large_fluid_extractor.not_enough_casings=§4Not enough casings: need %d, but\nhave %d.
-GT5U.gui.text.wormhole_generator.missing_entangled_singularity=§4Missing Entangled Singularity
-GT5U.gui.text.wormhole_generator.status.no_destination=§fWormhole status: §cNo destination
-GT5U.gui.text.wormhole_generator.status.decaying=§fWormhole status: Decaying
-GT5U.gui.text.wormhole_generator.status.active=§fWormhole status: §bActive
-GT5U.gui.text.wormhole_generator.status.inactive=§fWormhole status: Inactive
-GT5U.gui.text.wormhole_generator.diameter=§fWormhole diameter: §b%,d Å
-GT5U.gui.text.wormhole_generator.max_io=§fMax I/O per hatch: §b%,d EU/t
-GT5U.gui.text.wormhole_generator.max_io.large=§fMax I/O per hatch: §b%3.3e EU/t
+## DroneCentre
+GT5U.gui.text.recipe_result.drone_noDrone=&#C62140Can't find any drone in Input Buses!
 
-GT5U.gui.text.status.active=§fActive
-GT5U.gui.text.status.online=§fOnline
-GT5U.gui.text.status.disabled=§fDisabled
-GT5U.gui.text.status.incomplete=§4Incomplete Structure
-GT5U.gui.text.x=§fX: %s
-GT5U.gui.text.y=§fY: %s
-GT5U.gui.text.z=§fZ: %s
-GT5U.gui.text.dim=§fDim: %s
-GT5U.gui.text.dim.valid=§fDim Valid: Yes
-GT5U.gui.text.dim.invalid=§fDim Valid: No
+## EnhancedMultiBlockBase
+GT5U.gui.text.structure_error.missing_any_input=&#C62140Missing &#EFC62FInput
+GT5U.gui.text.structure_error.missing_any_output=&#C62140Missing &#EFC62FOutput
 
-GT5U.gui.title.unknown=§fUnknown
-GT5U.gui.text.item_amount=§fItem Amount
+## ExoFoundry
+GT5U.gui.text.structure_error.exo_foundry_hypercooler_hatch=&#C62140Missing coolant hatch for hypercooler
 
-GT5U.gui.circuit.generic.data_display.off=§fOFF
-GT5U.gui.circuit.generic.data_display.on=§fON
-GT5U.gui.circuit.data_description.delay=§fDelay
-GT5U.gui.circuit.data_description.length=§fLength
-GT5U.gui.circuit.data_description.rs_on=§fRS =§f> ON
-GT5U.gui.circuit.data_description.rs_off=§fRS =§f> OFF
+## ExtremeIndustrialGreenhouse
+GT5U.gui.text.cannot_change_when_running=&#C62140Can't change configuration when running!
 
-GT5U.gui.circuit.basic.name=§fBasic Logic
-GT5U.gui.circuit.basic.description=§fRegular Logic Gates
-GT5U.gui.circuit.data_description.or=§fOR
-GT5U.gui.circuit.data_description.nor=§fNOR
-GT5U.gui.circuit.data_description.xor=§fXOR
-GT5U.gui.circuit.data_description.xnor=§fXNOR
-GT5U.gui.circuit.data_description.and=§fAND
-GT5U.gui.circuit.data_description.nand=§fNAND
-GT5U.gui.circuit.data_description.invert=§fINVERT
-GT5U.gui.circuit.data_description.bit_or=§fBIT_OR
-GT5U.gui.circuit.data_description.bit_nor=§fBIT_NOR
-GT5U.gui.circuit.data_description.bit_xor=§fBIT_XOR
-GT5U.gui.circuit.data_description.bit_xnor=§fBIT_XNOR
-GT5U.gui.circuit.data_description.bit_and=§fBIT_AND
-GT5U.gui.circuit.data_description.bit_nand=§fBIT_NAND
-GT5U.gui.circuit.data_description.bit_invert=§fBIT_INVERT
-GT5U.gui.circuit.bit_and.name=§fHardcode Bit-AND
-GT5U.gui.circuit.bit_and.description=§f( signal & this ) !=§f 0
-GT5U.gui.circuit.bit_and.data_description=§fBit %d:
-GT5U.gui.circuit.combination_lock.name=§fCombination Lock
-GT5U.gui.circuit.combination_lock.description=§fChecks Combinations
-GT5U.gui.circuit.combination_lock.data_description=§fPower %d
-GT5U.gui.circuit.equals.name=§fEquals
-GT5U.gui.circuit.equals.description=§fsignal =§f=§f this
-GT5U.gui.circuit.equals.data_description.signal=§fSignal
-GT5U.gui.circuit.equals.data_description.equal=§fEqual
-GT5U.gui.circuit.equals.data_description.unequal=§fUnequal
-GT5U.gui.circuit.pulser.name=§fPulser
-GT5U.gui.circuit.pulser.description=§fLimits & Lengthens
-GT5U.gui.circuit.pulser.data_description.rs_out=§fRS Out
-GT5U.gui.circuit.pulser.data_display.highest=§fHIGHEST
-GT5U.gui.circuit.pulser.data_display.lowest=§fLOWEST
-GT5U.gui.circuit.randomizer.name=§fRandomizer
-GT5U.gui.circuit.randomizer.description=§fRandomizes Redstone
-GT5U.gui.circuit.randomizer.data_description.status=§fStatus
-GT5U.gui.circuit.redstone_meter.name=§fRedstone Meter
-GT5U.gui.circuit.redstone_meter.description=§fChecks Boundaries
-GT5U.gui.circuit.redstone_meter.data_description.lower=§fLower
-GT5U.gui.circuit.redstone_meter.data_description.upper=§fUpper
-GT5U.gui.circuit.redstone_meter.data_description.invert=§fInvert:
-GT5U.gui.circuit.redstone_meter.data_description.rs_out=§fRS Out:
-GT5U.gui.circuit.repeater.name=§fRepeater
-GT5U.gui.circuit.repeater.description=§fDelays RS-Signal
-GT5U.gui.circuit.timer.name=§fTimer
-GT5U.gui.circuit.timer.description=§fPulses Redstone
-GT5U.gui.circuit.timer.data_description.pulses=§fPulses
-GT5U.gui.circuit.timer.data_description.time=§fTime
+## FrothFlotationCell
+GT5U.gui.text.recipe_result.machine_locked_to_different_recipe=&#C62140Machine is already locked to a different recipe
 
-gt.behaviour.paintspray.infinite.gui.header=§fSelect a Color
-gt.behaviour.paintspray.infinite.gui.shake_toggle=§fAllow/disallow color iteration
+## gt.interact
+gt.interact.desc.mb.incomplete=&#C62140Incomplete Structure.
 
-GT5U.gui.text.no_water=§4Missing water
-GT5U.gui.text.no_lava=§4Missing lava
-GT5U.gui.text.no_air=§4Missing air
-GT5U.gui.text.no_co2=§4Missing CO2
-GT5U.gui.text.no_li2bef4=§4Missing Li2BeF4
-GT5U.gui.text.no_saw=§4Missing saw
-GT5U.gui.text.no_sapling=§4Missing sapling
-GT5U.gui.text.no_oxygen=§4Missing oxygen
-GT5U.gui.text.fuel_blacklisted=§4Fuel blacklisted
-GT5U.gui.text.no_catalyst=§4No valid catalyst found
-GT5U.gui.text.no_milling_ball=§4No milling ball found
-GT5U.gui.text.growing_trees=§fGrowing trees
-GT5U.gui.text.managing_power=§fManaging power
-GT5U.gui.text.no_scrap=§4Input too low quality
-GT5U.gui.text.warm_up=§pWarming up
-GT5U.gui.text.machine_locked_to_different_recipe=§4Machine is already locked to a different recipe
-GT5U.gui.text.no_output_for_sapling=§pThis sapling yields no outputs
-GT5U.gui.text.no_tools=§4Missing applicable tools
-GT5U.multiblock.startup=§fStarting up...
+## HatchInputME
+GT5U.gui.text.recipe_result.stocking_hatch_fail_extraction=&#C62140Failed to extract expected amount of fluids from stocking hatch. This can be caused by attaching multiple storage fluid buses to the same tank.
 
-gt.interact.desc.mb.incomplete=§4Incomplete Structure.
-gt.interact.desc.mb.mode=§fRunning mode: §6%s§f
+## HatchInputBusME
+GT5U.gui.text.recipe_result.stocking_bus_fail_extraction=&#C62140Failed to extract expected amount of items from stocking bus. This can be caused by attaching multiple storage buses to the same inventory.
 
-GT5U.nei.display.overclock=§f(§6OC§f)
+## HIPCompressor
+GT5U.gui.text.shutdown_reason.overheated=&#C62140HIP Unit overheated!
 
-GT5U.DTPF.catalysttier=§fCatalyst Tier
+## IndustrialCuttingMachine
+GT5U.gui.text.recipe_result.sawblade_missing=&#C62140Needs a sawblade in the controller slot
+GT5U.gui.text.recipe_result.sawblade_tier_not_high_enough=&#C62140Sawblade tier is not high enough for the installed energy hatches
 
-GTPP.CC.parallel=§fMaximum Parallel
+## IndustrialElectromagneticSeparator
+GT5U.gui.text.recipe_result.electromagnet_insufficient=&#C62140Electromagnet too weak to handle multi-amp energy hatches
+GT5U.gui.text.recipe_result.electromagnet_missing=&#C62140Needs an Electromagnet to run
 
-GT5U.gui.button.drill_retract_pipes=§fAbort and retract mining pipes
+## IndustrialLaserEngraver
+GT5U.gui.text.recipe_result.laser_insufficient=&#C62140Laser source is too weak to run this recipe
+GT5U.gui.text.structure_error.laser_need_uev=&#C62140Need UEV-tiered laser for Multi-Amp support
 
-GT5U.gui.button.chunk_loading_on=§fChunk Loading: §aON
-GT5U.gui.button.chunk_loading_off=§fChunk Loading: §4OFF
+## IndustrialRockBreaker
+GT5U.gui.text.recipe_result.no_lava=&#C62140Missing lava
 
-GT5U.multiblock.energy=§fStored Energy
+## IsaMill
+GT5U.gui.text.recipe_result.no_milling_ball=&#C62140No milling ball found
 
-GT5U.gui.text.powerfail_events=§fPowerfail Events
 
-## Item Filter
-gt.interact.desc.Item_Filter.Filter=§fFilter 
-gt.interact.desc.Item_Filter.CheckMode=§fCheck Mode
+## LapotronicSuperCapacitor
+GT5U.gui.text.structure_error.lsc_cap=&#C62140Too many empty capacitors
 
-## Steam Regulator????
+## LargeBoilerGui
+GT5U.machines.large_boiler.gui.solid_burn=Solid fuel burns for: &#EFC62F%ss/%ss
+GT5U.machines.large_boiler.gui.fluid_burn=Fluid fuel burns for: &#EFC62F%ss/%ss
 
-## Pump
-gt.interact.desc.Pump.ExpImp=§fExport/Import
-gt.interact.desc.Pump.Conditional=§fConditional
-gt.interact.desc.Pump.InputBlock=§fInput Blocking
-gt.interact.desc.Pump.OutputBlock=§fOutput Blocking
+## LargeChemicalReactor
+GT5U.gui.text.structure_error.need_exactly_one_coil=&#C62140Needs exactly 1 Heating Coil
 
-## Conveyor
-gt.interact.desc.conveyor.ExpImp=§fExport/Import
-gt.interact.desc.conveyor.Conditional=§fConditional
-gt.interact.desc.conveyor.InputBlock=§fInput Blocking
-gt.interact.desc.conveyor.OutputBlock=§fOutput Blocking
+## LargeCombustionEngine
+GT5U.gui.text.recipe_result.fuel_quality_too_high=&#C62140Fuel quality too high to run without boost
+GT5U.gui.text.recipe_result.no_lubricant=&#C62140No lubricant found
 
-## Arm
-gt.interact.desc.arm.Internal_Slot=§fInternal slot#
-gt.interact.desc.arm.Adjacent_Slot=§fAdjacent slot#
+## LargeFluidExtractorGui
+GT5U.gui.text.structure_error.large_fluid_extractor_not_enough_casings=&#C62140Not enough casings: need &#EFC62F%d&#C62140, but\nhave &#EFC62F%d&#C62140.
 
-gt.interact.desc.export=§fExport
-gt.interact.desc.import=§fImport
+## LargeHadronColliderGui
+GT5U.gui.text.gtnhlanth.inputinterrupt=&#C62140LHC Input Beam Interrupted
+GT5U.gui.text.gtnhlanth.noaccel=&#C62140LHC Accelerator Stopped
+GT5U.gui.text.gtnhlanth.noparticle=&#C62140No Particle Found
 
-gt.interact.desc.normal=§fNormal
-gt.interact.desc.inverted=§fInverted
 
-gt.interact.desc.freq=§fFrequency
+## LargeNeutralizationEngineGui
+GT5U.gui.text.residue_change=Residue Change: &#C62140+%s/&#7AC25F-%s (%s)
 
-## Fluid Regulator
-gt.interact.desc.fluid_regulator.ExpImp=§fExport/Import
-gt.interact.desc.fluid_regulator.Conditional=§fConditional
-gt.interact.desc.fluid_regulator.L=§f L
-gt.interact.desc.fluid_regulator.Ticks=§f ticks
-gt.interact.desc.fluid_regulator.Average=§fAverage: 
-gt.interact.desc.fluid_regulator.L_Sec=§fL/sec
+## LargeRocketEngine
+GT5U.gui.text.recipe_result.no_air=&#C62140FMissing air
+GT5U.gui.text.recipe_result.no_co2=&#C62140FMissing CO2
 
-## FluidFilter
-gt.interact.desc.FluidFilter.Direction=§fIFilter Direction
-gt.interact.desc.FluidFilter.Type=§fIFilter Type
-gt.interact.desc.FluidFilter.BlockFlow=§fIBlock Flow
-gt.interact.desc.FluidFilter.Empty=§fIFilter Empty
+## LargeSemifluidGenerator
+GT5U.gui.text.recipe_result.no_oxygen=&#C62140Missing oxygen
 
-## Machine Controller Cover
-gt.interact.desc.MachContr.EnRedstone=§fEnable with Redstone
-gt.interact.desc.MachContr.DisRedstone=§fDisable with Redstone
-gt.interact.desc.MachContr.DisMachine=§fDisable machine
-gt.interact.desc.MachContr.SafeMode=§fSafe Mode
+## Latex
+GT5U.gui.text.structure_error.latex_singularity=&#C62140Rumor says you need §osomething§r to have such powerful energy hatches
 
-## Wireless Activity
-gt.interact.desc.Wireless_Activity.Enabled=§fMachine enabled
-gt.interact.desc.Wireless_Activity.Idle=§fMachine idle
-gt.interact.desc.Wireless_Activity.Recipe_Progress=§fRecipe progress
+## LESU
+GT5U.gui.text.structure_error.lesu_error=&#C62140Unable to identify LESU structure
 
-## Wireless Fluid Detector
-gt.interact.desc.Wireless_Fluid_Detector.FluidTHR=§fFluid threshold
+## LinkedPurificationUnit
+GT5U.infodata.purification_plant.linked_units.status.incomplete=&#C62140Incomplete Structure
 
-## Liquid Meter (Fluid meter)
-gt.interact.desc.Fluid_Meter.FluidTHR=§fFluid threshold
+## ManualTrafo
+GT5U.gui.text.structure_error.manual_transformer_dynamo=&#C62140Dynamo hatches must be of the same tier
+GT5U.gui.text.structure_error.manual_transformer_energy=&#C62140Energy hatches must be of the same tier
 
-## Item Meter/Detector
-gt.interact.desc.Item_Meter.DetectSlot=§fDetect slot #
-gt.interact.desc.Item_Meter.ItemTHR=§fItem threshold
+## MassFabricator
+GT5U.gui.text.recipe_result.no_scrap=&#C62140Input too low quality
 
-## Player Detector
-gt.interact.desc.Player_Detector.Any_Player=§fAny player
-gt.interact.desc.Player_Detector.Other_Players=§fOther players
-gt.interact.desc.Player_Detector.Only_Owner=§fOnly owner
+## MegaDistillTower
+GT5U.gui.text.structure_error.missing_top=&#C62140Top layer is not valid
 
-## Shutter
-gt.interact.desc.Shutter.Open_Enabled=§fOpen if work enabled
-gt.interact.desc.Shutter.Open_Disabled=§fOpen if work disabled
-gt.interact.desc.Shutter.OutAllow=§fOnly Output allowed
-gt.interact.desc.Shutter.InAllow=§fOnly Input allowed
+## MissingStructureWrapperCasings
+GT5U.gui.text.structure_error.missing_casings=&#C62140Not enough casings: needs at least &#EFC62F%s&#C62140, found &#EFC62F%s
+GT5U.gui.text.structure_error.missing_casings_specific=&#C62140Not enough &#EFC62F%s&#C62140: need at least &#EFC62F%s&#C62140, found &#EFC62F%s
 
-## Redstone Receiver
-GT5U.gui.tooltip.redstone_receiver.GateMode=§fGate Mode
+## MultiBlockBase
+gt.interact.desc.mb.mode=Running mode: &#EFC62F%s
+GT5U.gui.text.invalid_parameters=&#C62140Invalid Parameters.
+GT5U.gui.text.structure_error.one_tt_or_two_energy=&#C62140Either &#EFC62F1 TecTech energy hatch&#C62140 or &#EFC62F2 normal energy hatches&#C62140 are allowed.
 
-## Wireless Fluid Detector
-gt.cover.wirelessdetector.redstone.1=§fWireless signal & direct Redstone
+GT5U.gui.text.progress_recipe=Progress: %ss / %ss &#999999(%s%%)§r
+GT5U.gui.text.progress_detail=Progress: %s%% &#999999(%ss/%ss)§r
+GT5U.gui.text.rate_short=&#999999(%s/s)§r
+GT5U.gui.text.rate_short_slow=&#999999(%ss/each)§r
+GT5U.gui.text.rate_large_suffix=&#999999[%s]§r
+GT5U.gui.text.item_amount_display=§b%s§r x §6%s§r
+GT5U.gui.text.fluid_amount_display=§b%s§r x §6%sL§r
 
-## Wireless Item Detector
-gt.interact.desc.Item_Item_Detector.ItemTHR=§ftem threshold
-gt.interact.desc.Item_Item_Detector.DetectSlot=§fDetect slot #
+GT5U.gui.text.shutdown_duration=&#C62140Shut down &#EFC62F%s &#C62140h &#EFC62F%s &#C62140min &#EFC62F%s &#C62140s ago.
+GT5U.gui.text.too_uncertain=&#C62140Too Uncertain.
 
-## Wireless Maintenance Cover
-GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=§fno Issues
-GT5U.gui.text.wireless_maintenance_detector.extra.ge1_issues=§f>= 1 Issue
-GT5U.gui.text.wireless_maintenance_detector.extra.ge2_issues=§f>= 2 Issues
-GT5U.gui.text.wireless_maintenance_detector.extra.ge3_issues=§f>= 3 Issues
-GT5U.gui.text.wireless_maintenance_detector.extra.ge4_issues=§f>= 4 Issues
-GT5U.gui.text.wireless_maintenance_detector.extra.ge5_issues=§f>= 5 Issues
-GT5U.gui.text.wireless_maintenance_detector.extra.rotor_lt20=§fRotor < 20%
-GT5U.gui.text.wireless_maintenance_detector.extra.rotor_0=§fRotor ≈ 0%
+## MultiBlockBaseGui
+GT5U.gui.text.shutdown_reason.computation_loss=&#C62140Shut down due to computation loss.
 
-## Energy Detector
-gt.interact.desc.Energy_Detector.universal=§fUniversal
-gt.interact.desc.Energy_Detector.electricity=§fInt. EU
-gt.interact.desc.Energy_Detector.steam=§fSteam
-gt.interact.desc.Energy_Detector.average_in=§fAvg. Input
-gt.interact.desc.Energy_Detector.average_out=§fAvg. Output
-gt.interact.desc.Energy_Detector.eu_stored=§fEU stored
+## MultiLathe
+GT5U.gui.text.structure_error.missing_pipe_casing=&#C62140Missing Pipe Casing
 
-## Maintenance Cover
-gt.interact.desc.issue=§f1 Issue
-gt.interact.desc.issues=§f%s Issues
-gt.interact.desc.issue_rotor_low=§fRotor < 20%
-gt.interact.desc.issue_rotor_dead=§fRotor ≈ 0%
+## NanochipAssemblyModuleBaseGui
+GT5U.gui.text.nac.module.status.disconnected=&#C62140Disconnected from Main Complex
 
-## DoesWorkUI
-gt.interact.desc.MachineEnabled=§fMachine enabled
-gt.interact.desc.MachineIdle=§fMachine idle
-gt.interact.desc.RecipeProgress=§fRecipe progress
+## NanoForge
+GT5U.gui.text.structure_error.missing_nanite=&#C62140Missing Nanite in controller slot
 
-## EU MEter
-gt.interact.desc.EnergyTHR=§fEnergy threshold
+## NuclearReactor
+GT5U.gui.text.recipe_result.no_li2bef4=&#C62140Missing Li2BeF4
 
-## Facade
-gt.interact.desc.facade.Redstone=§fRedstone
-gt.interact.desc.facade.Energy=§fEnergy
-gt.interact.desc.facade.Fluids=§fFluids
-gt.interact.desc.facade.Items=§fItems
+## OilCracker
+GT5U.gui.text.structure_error.cracker_missing_middle_input_hatch=&#C62140Missing Input Hatch for cracking fluid
 
-## TecTech
-gt.interact.desc.channel=§fChannel
-gt.interact.desc.set_perm=§fPublic/Private
-gt.interact.desc.set_io=§fImport/Export
+## OilDrillBase
+GT5U.gui.text.drill_offline_generic=&#C62140Drill Offline
+GT5U.gui.text.drill_offline_reason=&#C62140Drill Offline: %s
 
-#mui1
-mui.button.close=§fx
+## OverclockDescriber
+GT5U.nei.display.duration.seconds=Time: &#999999%s seconds
+GT5U.nei.display.duration.ticks=Time: &#999999%s ticks
+GT5U.nei.heat_capacity=Heat: &#999999%s K
+GT5U.nei.heat_capacity.material=Coil: &#999999%s
+GT5U.nei.display.total=Total: &#999999%s EU
+GT5U.nei.display.total.steam=Total: &#999999%s L of Steam
+GT5U.nei.display.usage=Usage: &#999999%s EU/t %s
+GT5U.nei.display.usage.original=Original usage: &#999999%s EU/t %s
+GT5U.nei.display.usage.steam=Usage: &#999999%s L/s of Steam
+GT5U.nei.display.voltage=Voltage: &#999999%s EU/t %s
+GT5U.nei.display.amperage=Amperage: &#999999%s A
+GT5U.nei.display.overclock=&#999999(§6OC&#999999)
+GT5U.nei.display.average=Average: &#999999%s EU/t %s
 
-#Cauldron Recipe Info
-GT5U.cauldron_recipe.supports=§fSupports any Impure Dust
-GT5U.cauldron_recipe.consumed=§fConsumed Water
-gt.recipe.cauldron=§fCauldron
-GT5U.nei.cauldron.consumed=§fConsumed per operation
+GT5U.gui.text.tier_name_with_parentheses=&#999999(§r%s&#999999)
 
-#Purified Water
-GT5U.nei.purified_water.base_chance=§fBase success chance: %s%%
-GT5U.nei.purified_water.grade_3.0=§fConsumed during operation
-GT5U.nei.purified_water.grade_3.1=§f+%s%%/%dL
-GT5U.nei.purified_water.grade_3.2=§fReturned in amount equivalent to consumed flocculant.
-GT5U.nei.purified_water.grade_4.0=§f+%s pH/stack
-GT5U.nei.purified_water.grade_4.1=§f%s pH/1000L
+## PCBFactory
+GT5U.gui.text.recipe_result.bio_upgrade_missing=&#C62140Recipe needs Bio Upgrade to start
+GT5U.gui.text.recipe_result.nanites_missing=&#C621407Missing nanites
+
+## PlasmaForge
+GT5U.gui.text.structure_error.energy_hatch_tier_mismatch=&#C62140Energy hatches must be of the same tier
+
+## PositionedStructureError
+GT5U.gui.text.structure_error.wrong_block=Invalid block at &#999999(%s, %s, %s)
+GT5U.gui.text.structure_error.wrong_block_expected=Expected at &#999999(%s, %s, %s)§r:
+GT5U.gui.text.structure_error.wrong_block_expected_single=Expects &#EFC62F%s§r at &#999999(%s, %s, %s)
+
+## PurificationUnitPhAdjustment
+GT5U.gui.text.shutdown_reason.critical_ph_value=&#C62140pH exceeded critical value.
+
+## QuantumForceTransformer
+GT5U.gui.text.recipe_result.no_catalyst=&#C62140No valid catalyst found
+
+## ReasonOutOfFluid
+GT5U.gui.text.out_of_fluid=&#C62140No following fluids supplied: §b%s x %s L
+
+## ReasonOutOfItem
+GT5U.gui.text.out_of_item=&#C62140No following items supplied: §b%s x %s
+
+## ReasonOutOfStuff
+GT5U.gui.text.out_of_stuff=&#C62140No following stuffs supplied: §b%s x %s
+
+## RecipeMaps
+gt.nei.lftr.power=Power: &#999999%s EU/t per Dynamo
+gt.nei.lftr.dynamo=Dynamo: &#999999%s EU
+gt.nei.lftr.total=Total: &#999999%s EU
+
+GT5U.nei.fuel=Fuel Density: &#999999%s EU/%s
+GT5U.nei.fuel_per_item=Fuel Value: &#999999%s EU/item
+
+## ResultInsufficientHeat
+GT5U.gui.text.recipe_result.insufficient_heat=&#C62140Recipe needs more heat to start. Required: &#EFC62F%s K &#C62140(&#EFC62F%s&#C62140)
+
+## ResultInsufficientMachineTier
+GT5U.gui.text.recipe_result.insufficient_machine_tier=&#C62140Recipe needs higher structure tier. Required: &#EFC62F%s&#C62140
+
+## ResultInsufficientPower
+GT5U.gui.text.recipe_result.insufficient_power=&#C62140Recipe needs more power to start. Required: &#EFC62F%s EU/t &#C62140(&#EFC62F%s&#C62140)
+
+## ResultInsufficientStartupPower
+GT5U.gui.text.recipe_result.insufficient_startup_power=&#C62140Recipe needs higher startup power. Required: &#EFC62F%s EU/t&#C62140
+GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=&#C62140Recipe needs higher startup power. Required: &#EFC62F%s EU/t&#C62140. Requires &#EFC62F%s&#C62140 A rounded to &#EFC62F%s&#C62140 64A energy hatches
+
+## ResultInsufficientVoltage
+GT5U.gui.text.recipe_result.insufficient_voltage=&#C62140Recipe needs a higher voltage to start. Required: &#EFC62F%s EU/t &#C62140(&#EFC62F%s&#C62140)
+
+## ResultMissingApiaryFlowers
+GT5U.gui.text.recipe_result.apiary_missing_flowers=&#C62140Missing flowers: &#EFC62F%s&#C62140
+
+## ResultMissingItem
+GT5U.gui.text.recipe_result.missing_item=&#C62140Missing required item: &#EFC62F%s&#C62140
+
+## ShutDownReasonRegistry
+GT5U.gui.text.shutdown_reasoninsufficient_dynamo=&#C62140Shut down due to insufficient dynamo size
+GT5U.gui.text.shutdown_reasonno_machine_part=&#C62140No correct machine part in controller slot.
+GT5U.gui.text.shutdown_reasonno_repair=&#C62140Shut down due to machine damage.
+GT5U.gui.text.recipe_result.no_water=&#C62140Missing water
+GT5U.gui.text.shutdown_reason.pollution_fail=&#C62140Failed to output the pollution.
+GT5U.gui.text.shutdown_reason.power_loss=&#C62140Shut down due to power loss.
+GT5U.gui.text.shutdown_reason.structure_incomplete=&#C62140Shut down due to incomplete structure.
+GT5U.gui.text.shutdown_reason.fluid_output_failed=&#C62140Failed to output all the fluids.
+GT5U.gui.text.shutdown_reason.item_output_failed=&#C62140Failed to output all the items.
+
+## SimpleCheckRecipeResult
+GT5U.gui.text.recipe_result.success=Processing recipe
+
+## SOFuelCellMK1
+GT5U.gui.text.structure_error.sofc_missing_input_hatches=&#C62140Missing Input Hatches: &#EFC62Frequires 1 for Fuel and 1 for Oxygen&#C62140, found &#EFC62F%s
+
+## SolarFactory
+GT5U.gui.text.recipe_result.low_wafer_tier=&#C62140Found wafer is too low tier for the recipe
+GT5U.gui.text.recipe_result.no_wafer=&#C62140No wafer was found
+GT5U.gui.text.recipe_result.not_enough_wafer=&#C62140Found wafer but recipe requires more than given
+GT5U.gui.text.structure_error.solar_factory_precise=&#C62140Casing not precise enough
+
+## SpinmatronGui
+GT5U.gui.text.recipe_result.invalidfluidsup=&#C62140Missing Fluid Required For Operation
+
+## StructureErrorRegistry
+GT5U.gui.text.structure_error.block_not_loaded=&#C62140Some block is not chunk loaded
+GT5U.gui.text.structure_error.coil_level_not_enough=&#C62140The coil level is not enough
+GT5U.gui.text.structure_error.energy_hatch_exceed_glass=&#C62140Energy hatch tier cannot exceed glass tier
+GT5U.gui.text.structure_error.energy_hatch_not_needed=&#C62140Energy Hatches are not needed
+GT5U.gui.text.structure_error.missing_data_hatch=&#C62140Missing hatch for Data Input
+GT5U.gui.text.structure_error.one_energy_hatch_on_laser=&#C62140Only one energy hatch if using Multi-Amp or Laser Hatches
+GT5U.gui.text.structure_error.one_uncertainty_hatch=&#C62140Require exactly 1 Uncertainty Hatch
+GT5U.gui.text.structure_error.too_long=&#C62140The structure is too long
+GT5U.gui.text.structure_error.too_short_height=&#C62140The structure is too short
+GT5U.gui.text.structure_error.too_short_length=&#C62140The structure is too short
+GT5U.gui.text.structure_error.too_tall=&#C62140The structure is too tall
+GT5U.gui.text.structure_error.unknown_multiblock_tier=&#C62140Unknown multiblock tier
+GT5U.gui.text.structure_error.unknown=&#C62140Unknown structure error
+GT5U.gui.text.structure_error.unneeded_muffler=&#C62140Does not accept Muffler Hatches
+
+## StructureError
+GT5U.gui.text.structure_error.missing_hatch=&#C62140Missing &#EFC62F%s&#C62140
+GT5U.gui.text.structure_error.dt_missing_output_hatch=&#C62140Missing Output Hatch on &#EFC62FLayer %s&#C62140
+GT5U.gui.text.structure_error.dt_missing_output_hatches=&#C62140Missing Output Hatch on &#EFC62FLayers %s&#C62140
+GT5U.gui.text.structure_error.energy_hatch_tier_too_low=&#C62140Energy hatch tier too low, required &#EFC62F%s-tiered energy hatch
+GT5U.gui.text.structure_error.glass_tier_not_enough=&#C62140Glass tier too low, required &#EFC62F%s-tiered glass
+GT5U.gui.text.structure_error.missing_energy_hatch=&#C62140Missing Energy Hatch
+GT5U.gui.text.structure_error.missing_output_bus=&#C62140Missing Output Bus
+GT5U.gui.text.structure_error.not_match_hatch=&#C62140Needs exactly &#EFC62F%s %s
+GT5U.gui.text.structure_error.too_few_hatch=%1$s&#C62140: needs at least &#EFC62F%2$s&#C62140, found &#EFC62F%3$s
+GT5U.gui.text.structure_error.too_many_hatch=%1$s&#C62140: needs at most &#EFC62F%2$s&#C62140, found &#EFC62F%3$s
+GT5U.gui.text.structure_error.too_many_hatches=&#C62140Too many &#EFC62F%ses &#C62140(&#EFC62Fmax %s&#C62140)
+
+## Synchrotron
+GT5U.gui.text.structure_error.synchrotron_antenna=&#C62140Antenna tier not detected
+
+## TankTFFT
+GT5U.gui.text.structure_error.tfft_too_many_hatch=&#C62140Too many hatches
+
+## TargetChamber
+GT5U.gui.text.structure_error.need_exactly_one_focus_input=&#C62140Needs exactly &#EFC62F1 Focus Input Hatch
+
+## ToxicResidueSensorGui
+GT5U.gui.text.toxic_residue=Toxic Residue: &#C62140%s §r/ %s &#999999(%s%%)
+
+## TreeFarm
+GT5U.gui.text.recipe_result.no_output_for_sapling= &#C62140This sapling yields no outputs
+GT5U.gui.text.recipe_result.no_sapling= &#C62140Missing sapling
+GT5U.gui.text.recipe_result.no_tools= &#C62140Missing applicable tools
+
+## TTMultiblockBase
+GT5U.gui.text.structure_error.missing_data_input_hatch= &#C62140Missing Data Input Hatch
+GT5U.gui.text.structure_error.missing_data_output_hatch= &#C62140Missing Data Output Hatch
+
+## VoidMinerBase
+GT5U.gui.text.recipe_result.drill_extracting_ores_failed=&#C62140Extraction Failed
+GT5U.gui.text.recipe_result.void_miner_wrong_dim=&#EFC62FThis dimension cannot be void mined
+GT5U.gui.text.recipe_result.void_miner_no_ores=&#EFC62FNo ores available to mine in this dimension
+
+## Windmill
+GT5U.gui.text.structure_error.missing_dispenser= &#C62140Missing Dispenser
+GT5U.gui.text.structure_error.too_many_doors= &#C62140Too many doors &#EFC62F(max 2)
+
+## WormholeGenerator
+GT5U.gui.text.wormhole_generator.status.active=Wormhole status: &#EFC62FActive§r
+GT5U.gui.text.wormhole_generator.status.decaying=Wormhole status: &#EFC62FDecaying§r
+GT5U.gui.text.wormhole_generator.status.no_destination=Wormhole status: &#C62140No destination§r
+
+## XLTurbineGas
+GT5U.gui.text.recipe_result.fuel_blacklisted=&#C62140Fuel blacklisted
