@@ -1,0 +1,7 @@
+#lang-neicustomdiagram
+#colorUtils
+
+# ColorUtils
+## ARBG
+color.resource.neicustomdiagram.textColor=FFFFFFFF
+color.resource.neicustomdiagram.guiLines=FF555555
