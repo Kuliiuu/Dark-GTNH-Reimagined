@@ -1,3 +1,4 @@
+
 <div align="center">
     <img width="200" height="200" alt="logo" src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/packLarge.png?raw=true"/>
     <h1>Dark GTNH Reimagined</h1>
@@ -7,16 +8,13 @@
  <p><strong>A dark themed GUI resource pack made for <a href="https://www.gtnewhorizons.com" target="_blank">GT:NH</a></strong></p>
  <p>Current supported version: <strong>2.9.0</strong></p>
  <p><strong>Angelica is now needed for text recoloring in GUIs</strong></p>
- <p>NOTE: This is a development branch. Although it is completely usable, expect this version being incomplete for now.</p>
- <p>If you are still on version 2.8.4 and prior, you might prefer to download the latest stable release <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/releases">here</a>.</p>
- <p>If you wish to download this version, you can do so downloading the code, or by downloading the latest commit <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/archive/refs/heads/2.9.0-dev.zip">here</a>.</p>
 </div>
      
 <h2 align="center">Preview</h2>
 
 <p align="center">
   <img src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/preview/img1.png?raw=true" alt="Preview1" width="240"/>
-  <img src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/preview/img2.png?raw=true" alt="Preview2" width="240"/>
+  <img src="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/blob/main/preview/img4.png?raw=true" alt="Preview2" width="240"/>
 </p>
 
 <p align="center">
@@ -31,6 +29,9 @@ Modrinth: <a href="https://modrinth.com/resourcepack/dark-gtnh-reimagined">Downl
 ColorUtils: <a href="https://github.com/Ranzuu/Shadow-UI">Ranzuu/Shadow-UI</a><br>
 Color theme credit: <a href="https://www.youtube.com/@rembutquaglet">Youtube/@rembutquaglet</a></p>
 <p>I strongly recommend using my pack <strong>together with Modernity</strong> (<a href="https://github.com/ABKQPO/Modernity-GTNH">ABKQPO/Modernity-GTNH</a>)</p></div>
+
+<div align="center"><h2>Issues</h2>
+<p>If you have any problems with the pack please make an issue here: <a href="https://github.com/Kuliiuu/Dark-GTNH-Reimagined/issues/new">New Issue</a><br>
 
 <div align="center"><h2>License</h2>
 <p>This project is licensed under the<br>
