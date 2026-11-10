@@ -1,22 +1,9 @@
-#Internal Blocks
-tile.blockThermalMonitor.name=§fThermal Monitor
-tile.blockIndustrialAlarm.name=§fIndustrial Alarm
-tile.blockHowlerAlarm.name=§fHowler Alarm
-tile.blockRemoteThermo.name=§fRemote Thermal Monitor
-tile.blockInfoPanel.name=§fIndustrial Information Panel
-tile.blockAdvancedInfoPanel.name=§fAdvanced Information Panel
-tile.blockEnergyCounter.name=§fEnergy Counter
-tile.blockAverageCounter.name=§fAverage Counter
-tile.blockRangeTrigger.name=§fRange Trigger
+#lang-nuclearcontrol
+#sub-text
 
-gui.optional.numbers=§f
-
-#Original Screen Messages
-msg.nc.ScreenColor=§fScreen Color
-msg.nc.TextColor=§fText Color
-msg.nc.InfoPanelOutput=§fOutput: %s EU/t
-msg.nc.InfoPanelOutputMJ=§fOutput: %s RF/t
-msg.nc.InfoPanelOutputSteam=§fOutput: %s mB/t
-msg.nc.AverageCounterPeriod=§fPeriod: %ssec
-msg.nc.HowlerAlarmSoundRange=§fSound range: %s
-msg.nc.HowlerAlarmSound=§fSound
+# Original Screen Messages
+msg.nc.InfoPanelOutput=Output: &#999999%s EU/t
+msg.nc.InfoPanelOutputMJ=Output: &#999999%s RF/t
+msg.nc.InfoPanelOutputSteam=Output: &#999999%s mB/t
+msg.nc.AverageCounterPeriod=Period: &#999999%ssec
+msg.nc.HowlerAlarmSoundRange=Sound range: &#999999%s
