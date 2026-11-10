@@ -1,1 +1,9 @@
-bbab.gui.breedtree=§fBee Breeding Tree
+#lang-beebetteratbees
+#colorUtils
+
+# ColorUtils
+## RGB
+color.resource.beebetteratbees.neiLineBlack=FFFFFF
+color.resource.beebetteratbees.neiLineRed=C62140
+color.resource.beebetteratbees.neiLineLabelBlack=FFFFFF
+color.resource.beebetteratbees.neiLineLabelRed=C62140

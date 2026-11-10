@@ -1,5 +1,4 @@
-enhancedlootbags.string.lootbag_templatename=§fLootBag (%s)
+#lang-enhancedlootbags
+#sub-text
 
-enhancedlootbags.nei.recipe.contains_trash=§fContains trash: %s
-
-enhancedlootbags.nei.recipe.also_has_loot_from=§fAlso has loot from:
+enhancedlootbags.nei.recipe.trash_group_name=&#999999%s

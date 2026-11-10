@@ -1,7 +1,0 @@
-gui.neenergistics.button.title.combination=§fCombine Items
-gui.neenergistics.button.tooltip.combination=§fCurrent Mode: %s
-gui.neenergistics.button.name.enabled=§fEnabled
-gui.neenergistics.button.name.disabled=§fDisabled
-gui.neenergistics.button.name.whitelist=§fWhitelist
-gui.neenergistics.button.title.remove=§fRemove
-gui.neenergistics.button.tooltip.remove=§fRemove and cancel the current recipe

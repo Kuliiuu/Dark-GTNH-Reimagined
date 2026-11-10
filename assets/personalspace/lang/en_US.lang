@@ -1,12 +1,5 @@
-gui.personalWorld.voidWorld=§fVoid world
-gui.personalWorld.biome=§fBiome name
-gui.personalWorld.presets=§fPresets
-gui.personalWorld.layers=§fLayers
+#lang-personalWorld
+#sub-text
 
-gui.personalWorld.skyColor=§fSky color
-gui.personalWorld.starBrightness=§fStar brightness
-
-gui.personalWorld.vegetation=§fFoliage
-gui.personalWorld.trees=§fTrees
-gui.personalWorld.weather=§fWeather
-gui.personalWorld.clouds=§fClouds
+gui.personalWorld.boundary.chunks=Boundary Chunks X x Z (&#9999990-20§r)
+gui.personalWorld.gap=Gap Chunks (&#9999990-5§r)

@@ -1,19 +1,9 @@
-gui.EMT.config.title=§fElectro-Magic Tools Configuration
-gui.EMT.etherealMacerator.title=§fEthereal Processor
-gui.EMT.wandRecharge.title=§fIndustrial Wand Recharge Station
-gui.EMT.inventory=§fInventory
-gui.EMT.book.aspect.output.eu.title=§fEssentia Outputs Book
-gui.EMT.book.aspect.output.essentia.eu=§fEU Output per Essentia
-gui.EMT.key.unequip=§fUnequip
+#lang-emt
+#sub-text
 
-emt.Output=§fOutput:
-emt.Storage=§fStorage:
-emt.PressShift=§f<Press SHIFT>
-emt.Generating=§fGenerating:
-emt.Fuel=§fFuel
-emt.OutputMax=§fOutput at Max:
-emt.remaining_second=§fRemaining seconds:
-
-entity.EMT.laser.name=§fLaser
-entity.EMT.archer.name=§fGuardian Snowman
-entity.EMT.shield.name=§fShield
+emt.Output=Output:&#999999
+emt.Storage=Storage:&#999999
+emt.Generating=Generating:&#999999
+emt.Fuel=Fuel&#999999
+emt.OutputMax=Output at Max:&#999999
+emt.remaining_second=Remaining seconds:&#999999

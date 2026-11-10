@@ -1,4 +1,4 @@
-container.cookingforblockheads:cookingoven=§fCooking Oven
-container.cookingforblockheads:fridge=§fFridge
-container.cookingforblockheads:counter=§fCounter
-container.cookingforblockheads:cabinet=§fCabinet
+#lang-cookingforblockheads
+#sub-text
+
+cookingforblockheads:no_ingredients=&#999999Not\n&#999999enough\n&#999999ingredients

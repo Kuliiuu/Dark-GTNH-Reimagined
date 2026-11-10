@@ -1,2 +1,15 @@
-nei.recipe.page=§fPage %s/%s
-nei.recipe.fuel.smeltCount=§fSmelts %s items
+#lang-nei
+#colorUtils
+#sub-text
+
+# ColorUtils
+## RGB
+color.resource.nei.textGray=FFFFFF
+color.resource.nei.textLightGray=999999
+color.resource.nei.recipeTitle=FFFFFF
+color.resource.nei.recipeTitleHover=EFC62F
+color.resource.nei.subsetWidget=FFFFFF
+color.resource.nei.recipeBadge=EFC62F
+
+# Strings
+nei.recipe.page=&#999999Page %s/%s

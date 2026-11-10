@@ -1,0 +1,9 @@
+#lang-codechickencore
+#colorUtils
+
+# ColorUtils
+codechickencore.color.scrollbarCorners=FF14161C
+codechickencore.color.scrollbarTopLeft=FF1D1E23
+codechickencore.color.scrollbarBottomRight=FF101217
+codechickencore.color.scrollbarFill=FF14161C
+codechickencore.color.scrollbarGuide=FF101217
