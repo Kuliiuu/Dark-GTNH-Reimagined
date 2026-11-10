@@ -1,17 +1,14 @@
-# NEI
-ig.nei.spaceassembler.project=§fNeeds %s
-ig.nei.spaceassembler.projectAt=§fat %s
-ig.nei.spaceassembler.projectAnyLocation=§fany location
-ig.nei.module=§fNeeds MK-%s Module
-ig.nei.spacemining.distance=§fDistance:
-ig.nei.spacemining.size=§fSize:
-ig.nei.spacemining.weight=§fWeight:
-ig.nei.elevatorpump.planettype=§fPlanet
-ig.nei.elevatorpump.gastype=§fGas
-ig.nei.elevatorpump.amount=§fAmount
-ig.nei.elevatorpump.see_all=§fSee All
-ig.nei.spaceproject.stages=§fStages:
-ig.nei.siphon.planet=§fPlanet
-ig.nei.siphon.depth=§fDepth
+#lang-gtnhintergalactic
+#error
 
-ig.nei.space.custom.value=§f%s
+
+# PlanetaryGasSiphon
+GT5U.gui.text.recipe_result.no_space_station=&#C62140Not on a space station
+GT5U.gui.text.recipe_result.invalid_depth=&#C62140Invalid depth
+
+#TileEntityModuleMiner
+GT5U.gui.text.recipe_result.no_plasma=&#C62140Not enough plasma
+GT5U.gui.text.recipe_result.invalid_overdrive=&#C62140Invalid overdrive settings
+
+# TileEntityModuleManager
+GT5U.gui.text.recipe_result.no_project_selected=&#C62140Not working on any project
